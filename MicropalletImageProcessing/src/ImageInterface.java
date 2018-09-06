@@ -16,6 +16,7 @@ import javax.swing.JSplitPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
+import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
@@ -81,7 +82,17 @@ public class ImageInterface {
 	public static JPanel imageEditPanel;
 	public static String hintIconPath = "src/resources/images/hint.jpg";
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
-		UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel");
+		try {
+		
+		    for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
+		       if ("Nimbus".equals(info.getName())) {
+		           UIManager.setLookAndFeel(info.getClassName());
+		           break;
+		        }
+		    }
+		} catch (Exception e) {
+		  
+		}
 		loadFrame();
 
 		loadMainUI();
