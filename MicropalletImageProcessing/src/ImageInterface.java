@@ -424,20 +424,19 @@ public class ImageInterface {
 				System.out.println("Pixel Fraction: " + pixelFraction);
 				System.out.println();
 				Picture picture1 = new Picture(channelList.get(0).getFilePath());
-				picture1.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension,
-						pixelFraction);
+				picture1.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension, pixelFraction);
 				imageViewPanel.removeAll();
-				PictureExplorer exp = new PictureExplorer(picture1, imageViewPanel);
+				PictureExplorer exp=new PictureExplorer(picture1, imageViewPanel);
 				imageViewPanel.revalidate();
 				imageViewPanel.repaint();
-				//tabbedPane.remove(1);
-				//tabbedPane.addTab("Image Viewer", null, imageViewPanel, "Locating image coordinates");
-
-				for (int i = 0; i < channelList.size(); i++) {
+				tabbedPane.remove(1);
+				tabbedPane.addTab("Image Viewer", null, imageViewPanel, "Locating image coordinates");
+				
+				for(int i = 0; i < channelList.size(); i++)
+				{
 					Picture picture2 = new Picture(channelList.get(i).getFilePath());
-					picture2.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize,
-							gridDimension, pixelFraction);
-					String name = "Channel #" + (i + 1) + " " + channelList.get(i).getName() + " - Edit.jpg";
+					picture2.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension, pixelFraction);
+					String name = "Channel #" + (i+1) + " " + channelList.get(i).getName() + " - Edit.jpg";
 					picture2.write(name);
 				}
 			}
@@ -591,44 +590,36 @@ public class ImageInterface {
 		confirmColorRange.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if (numChannelInquiry < channelList.size()) {
+				if(numChannelInquiry < channelList.size()){
+				numChannelInquiry++;
+				/*if(channelList.size() < numChannelInquiry){
+					ChannelName.setText("");
+					ChannelName.setText("Channel #" + numChannelInquiry + ": " + channelList.get(numChannelInquiry - 1).getName());
+			}
+				else {
+					ChannelName.setText("");
+					ChannelName.setText("Channel #" + numChannelInquiry + ": ");
+				}
+				ColorValue.setText("");
+				lowerRange.setText("");
+				upperRange.setText("");
+				RangeValue.setText("");*/
+				scanReqPanel.removeAll();
+				setUpScanReqPanel();
+				scanReqPanel.revalidate();
+				scanReqPanel.repaint();
+				storeInfo(channelList.get(numChannelInquiry - 2).getContrastImageFile().imageProcessing(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension, pixelFraction, colorArray.get(numChannelInquiry - 2).getRed(), colorArray.get(numChannelInquiry - 2).getGreen(), colorArray.get(numChannelInquiry - 2).getBlue(), PixelRangeList.get(numChannelInquiry - 2).getLower(), PixelRangeList.get(numChannelInquiry - 2).getUpper()), numChannelInquiry - 2);
+				//System.out.println("" + startingRow + " " +  startingCol + " " +  endingRow + " " +  endingCol + " " +  wellSize + " " +  borderSize + " " +  gridDimension + " " +  pixelFraction + " " +  colorArray.get(numChannelInquiry - 2).getRed() + " " +   colorArray.get(numChannelInquiry - 2).getGreen() + " " +  colorArray.get(numChannelInquiry - 2).getBlue() + " " +   PixelRangeList.get(numChannelInquiry - 2).getLower() + " " +  PixelRangeList.get(numChannelInquiry - 2).getUpper());
+				}
+				else {
 					numChannelInquiry++;
-					/*
-					 * if(channelList.size() < numChannelInquiry){ ChannelName.setText("");
-					 * ChannelName.setText("Channel #" + numChannelInquiry + ": " +
-					 * channelList.get(numChannelInquiry - 1).getName()); } else {
-					 * ChannelName.setText(""); ChannelName.setText("Channel #" + numChannelInquiry
-					 * + ": "); } ColorValue.setText(""); lowerRange.setText("");
-					 * upperRange.setText(""); RangeValue.setText("");
-					 */
-					scanReqPanel.removeAll();
-					setUpScanReqPanel();
-					scanReqPanel.revalidate();
-					scanReqPanel.repaint();
-					storeInfo(channelList.get(numChannelInquiry - 2).getContrastImageFile().imageProcessing(startingRow,
-							startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension, pixelFraction,
-							colorArray.get(numChannelInquiry - 2).getRed(),
-							colorArray.get(numChannelInquiry - 2).getGreen(),
-							colorArray.get(numChannelInquiry - 2).getBlue(),
-							PixelRangeList.get(numChannelInquiry - 2).getLower(),
-							PixelRangeList.get(numChannelInquiry - 2).getUpper()), numChannelInquiry - 2);
-					// System.out.println("" + startingRow + " " + startingCol + " " + endingRow + "
-					// " + endingCol + " " + wellSize + " " + borderSize + " " + gridDimension + " "
-					// + pixelFraction + " " + colorArray.get(numChannelInquiry - 2).getRed() + " "
-					// + colorArray.get(numChannelInquiry - 2).getGreen() + " " +
-					// colorArray.get(numChannelInquiry - 2).getBlue() + " " +
-					// PixelRangeList.get(numChannelInquiry - 2).getLower() + " " +
-					// PixelRangeList.get(numChannelInquiry - 2).getUpper());
-					PictureExplorer esp = new PictureExplorer(channelList.get(numChannelInquiry - 1).getPlainImageFile(), imageViewPanel);
-					imageViewPanel.revalidate();
-					imageViewPanel.repaint();
-					
-				} else {
+					storeInfo(channelList.get(numChannelInquiry - 2).getContrastImageFile().imageProcessing(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension, pixelFraction, colorArray.get(numChannelInquiry - 2).getRed(), colorArray.get(numChannelInquiry - 2).getGreen(), colorArray.get(numChannelInquiry - 2).getBlue(), PixelRangeList.get(numChannelInquiry - 2).getLower(), PixelRangeList.get(numChannelInquiry - 2).getUpper()), numChannelInquiry - 2);
+
 					searchImageProcessing();
 				}
 			}
-		});
-	}
+
+		});	}
 
 	public static void loadPanels() {
 
@@ -645,11 +636,10 @@ public class ImageInterface {
 		splitPane.resetToPreferredSizes();
 		splitPane.setOneTouchExpandable(true);
 		
-Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
-int scrW = (int)screenSize.getWidth();
+		int scrW = (int)screenSize.getWidth();
 
-		
 		splitPane.setDividerLocation((int)(scrW*6/8.0));
 		
 		imageEditPanel.add(splitPane);
@@ -742,6 +732,15 @@ int scrW = (int)screenSize.getWidth();
 	public static void storeInfo(boolean[][][][] array, int level) {
 		if (level == 0) {
 			motherMatrix = new boolean[array.length][array[0].length][array[0][0].length][array[0][0][0].length][10];
+			for (int rr = 0; rr < array.length; rr++) {
+				for (int cc = 0; cc < array[0].length; cc++) {
+					for (int r = 0; r < array[0][0].length; r++) {
+						for (int c = 0; c < array[0][0][0].length; c++) {
+							motherMatrix[rr][cc][r][c][level] = false;
+						}
+					}
+				}
+			}
 		}
 
 		for (int rr = 0; rr < array.length; rr++) {
@@ -749,8 +748,7 @@ int scrW = (int)screenSize.getWidth();
 				for (int r = 0; r < array[0][0].length; r++) {
 					for (int c = 0; c < array[0][0][0].length; c++) {
 						motherMatrix[rr][cc][r][c][level] = array[rr][cc][r][c];
-						// if(array[rr][cc][r][c])
-						// System.out.println(rr + " " + cc + " " + r + " " + c);
+						
 					}
 				}
 			}
@@ -770,7 +768,7 @@ int scrW = (int)screenSize.getWidth();
 			inquiry[i] = Scan.nextInt() - 1;
 		}
 
-		print(inquiry);
+		print(inquiry); //0 1
 
 	}
 
@@ -786,9 +784,7 @@ int scrW = (int)screenSize.getWidth();
 		String PicFileName = FileName + ".jpg";
 		boolean newline;
 
-		System.out.println(inquiry[0] + " " + inquiry[1]);
-
-		try {
+		/*try {
 			FileWriter table = new FileWriter(TextFileName);
 			String Temp = "2016.04.-DP.jpg";
 			DisplayPic = new Picture(Temp);
@@ -872,6 +868,127 @@ int scrW = (int)screenSize.getWidth();
 			DisplayPic.write(PicFileName);
 			table.close();
 		} catch (IOException i) {
+			System.out.println("Error: " + i.getMessage());
+		}*/
+		try
+		{
+			FileWriter table = new FileWriter(TextFileName);
+			String CoreFile = "2016.04.";
+			String Temp = CoreFile + "-DP.jpg";
+			DisplayPic = new Picture(Temp);
+			DisplayPic.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension,
+					pixelFraction);
+			//look for booleans
+			//System.out.println(motherMatrix.length + " " + motherMatrix[0].length + " " + motherMatrix[0][0].length + motherMatrix[0][0][0].length); 7/17/16/16
+			for(int rr = 0; rr < motherMatrix.length; rr++)
+			{
+				for(int cc = 0; cc < motherMatrix[0].length; cc++)
+				{
+					int counter = 0;
+					for(int r = 0; r < motherMatrix[0][0].length; r++)
+					{
+						for(int c = 0; c < motherMatrix[0][0][0].length; c++)
+						{
+							boolean markIt = true;
+							for(int i = 0; i < motherMatrix[0][0][0][0].length; i++)
+							{
+								boolean asked = false;
+								for(int j = 0; j < inquiry.length; j++)
+								{
+									if(inquiry[j] == i)
+									{
+										asked = true;
+									}
+								}	
+								if(asked)
+								{
+									if(motherMatrix[rr][cc][r][c][i] == false)
+									{
+										markIt = false;
+									}
+									System.out.println(i);
+								}
+								else
+								{
+									if(motherMatrix[rr][cc][r][c][i])
+									{
+										markIt = false;
+									}
+									//System.out.println(i);
+								}
+							}
+							if(markIt)
+							{
+								System.out.println("markIt was true");
+								DisplayPic.drawTargets(rr, cc, r, c);
+								displayMatrix[r][c] = true;
+								counter++;
+							}
+							else 
+							{
+								displayMatrix[r][c] = false;
+							}
+						
+									
+						}
+					}
+					if(counter > 0)
+					{
+						table.write("Location: (" + rr + ", " + cc + ")\n");
+						System.out.println("Location: (" + rr + ", " + cc + ")\n");
+						for(int r = 0; r <= displayMatrix.length; r++)
+						{
+							if(r == 0)
+							{
+									table.write("   A B C D E F G H I J K L M N \n");
+									System.out.println("   A B C D E F G H I J K L M N \n");
+							}
+							else
+							{
+								for(int c = 0; c <= displayMatrix[0].length; c++)
+								{
+								  if(c == 0 )
+								  {
+										if(r < 10){                       
+											table.write(r + "  ");
+											System.out.print(r + "  ");}
+										else{
+											table.write(r + " ");
+											System.out.print(r + " ");}
+								  }
+								  else
+								  {  
+									  String line = "";           
+									  if(displayMatrix[r - 1][c - 1] == false)
+									  {  
+										  line = line + "- ";
+									  }
+									  else
+									  {
+										  line = line + "X ";
+										  count++;
+									  }
+									  if(c == displayMatrix[0].length)
+									  {
+										  line = line + "\n";
+									  }
+									  table.write(line);
+									  System.out.print(line);
+								  }
+							  }
+						  }
+						}
+						table.write("Final Cell Count: " + count + "\n");
+						System.out.println("Final Cell Count: " + count);
+						System.out.println();
+					}
+				}
+			}
+			DisplayPic.write(PicFileName);
+			table.close();
+		}
+		catch(IOException i)
+		{
 			System.out.println("Error: " + i.getMessage());
 		}
 

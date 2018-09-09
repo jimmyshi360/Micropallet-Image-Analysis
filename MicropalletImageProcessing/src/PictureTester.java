@@ -62,7 +62,7 @@ public class PictureTester
             Sample.drawFrame(startingRow, startingCol, border, well, dim, shiftDown, shiftRight, fraction);
             System.out.println();
             System.out.println();
-            System.out.println();
+            Syste,.out.println
             System.out.println("Does the box fit? No -> 0 Yes -> 1");
             if(Scan.nextInt() == 1)
             {
