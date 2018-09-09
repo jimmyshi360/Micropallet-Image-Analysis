@@ -39,6 +39,7 @@ import java.awt.RenderingHints;
 import java.awt.Toolkit;
 
 import javax.swing.JFrame;
+import javax.swing.*;
 
 /**
  * TODO add remove button functionality. Finish all sub component skeletons
@@ -65,6 +66,7 @@ public class ImageInterface {
 	public static ArrayList<JButton> removeButtonArray = new ArrayList<JButton>();
 	public static ArrayList<Channel> channelList = new ArrayList<Channel>();
 	public static ArrayList<PixelRange> PixelRangeList = new ArrayList<PixelRange>();
+	public static ArrayList<JCheckBox> selectBoxArray = new ArrayList<JCheckBox>();
 	public static boolean[][][][][] motherMatrix;
 	public static Picture DisplayPic;
 	public static JLabel numChannels;
@@ -79,6 +81,7 @@ public class ImageInterface {
 	public static int borderSize = 0;
 	public static int gridDimension = 0;
 	public static double pixelFraction = 0;
+	public static int numCellFound = 0;
 	public static JPanel imageEditPanel;
 	public static String hintIconPath = "src/resources/images/hint.jpg";
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
@@ -106,6 +109,7 @@ public class ImageInterface {
 		setUpFileChooserPanel();
 		setUpImagePrepPanel();
 		setUpScanReqPanel();
+		setUpInputOutputPanel();
 
 		loadPanels();
 	}
@@ -131,9 +135,11 @@ public class ImageInterface {
 
 				channelList.add(tempChannel);
 				numChannelsLabel.setText("Number of Channels: " + channelList.size());
-
+				
 				fileChooserPanel.revalidate();
 				fileChooserPanel.repaint();
+				
+				setUpInputOutputPanel();
 			}
 		});
 
@@ -439,6 +445,11 @@ public class ImageInterface {
 					String name = "Channel #" + (i+1) + " " + channelList.get(i).getName() + " - Edit.jpg";
 					picture2.write(name);
 				}
+				picture1 = channelList.get(0).getContrastImageFile();
+				imageViewPanel.removeAll();
+				exp = new PictureExplorer(picture1, imageViewPanel);
+				imageViewPanel.revalidate();
+				imageViewPanel.repaint();
 			}
 		});
 
@@ -590,6 +601,16 @@ public class ImageInterface {
 		confirmColorRange.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				PixelRange range = new PixelRange(Integer.parseInt(lowerRange.getText()),
+						Integer.parseInt(upperRange.getText()));
+				if (PixelRangeList.size() < numChannelInquiry)
+					PixelRangeList.add(range);
+				else
+					PixelRangeList.set(numChannelInquiry - 1, range);
+				RangeValue
+						.setText("The Pixel Range is saved from " + PixelRangeList.get(numChannelInquiry - 1).getLower()
+								+ " to " + PixelRangeList.get(numChannelInquiry - 1).getUpper());
+				
 				if(numChannelInquiry < channelList.size()){
 				numChannelInquiry++;
 				/*if(channelList.size() < numChannelInquiry){
@@ -610,17 +631,77 @@ public class ImageInterface {
 				scanReqPanel.repaint();
 				storeInfo(channelList.get(numChannelInquiry - 2).getContrastImageFile().imageProcessing(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension, pixelFraction, colorArray.get(numChannelInquiry - 2).getRed(), colorArray.get(numChannelInquiry - 2).getGreen(), colorArray.get(numChannelInquiry - 2).getBlue(), PixelRangeList.get(numChannelInquiry - 2).getLower(), PixelRangeList.get(numChannelInquiry - 2).getUpper()), numChannelInquiry - 2);
 				//System.out.println("" + startingRow + " " +  startingCol + " " +  endingRow + " " +  endingCol + " " +  wellSize + " " +  borderSize + " " +  gridDimension + " " +  pixelFraction + " " +  colorArray.get(numChannelInquiry - 2).getRed() + " " +   colorArray.get(numChannelInquiry - 2).getGreen() + " " +  colorArray.get(numChannelInquiry - 2).getBlue() + " " +   PixelRangeList.get(numChannelInquiry - 2).getLower() + " " +  PixelRangeList.get(numChannelInquiry - 2).getUpper());
+				Picture picture1 = channelList.get(numChannelInquiry - 1).getContrastImageFile();
+				imageViewPanel.removeAll();
+				PictureExplorer exp = new PictureExplorer(picture1, imageViewPanel);
+				imageViewPanel.revalidate();
+				imageViewPanel.repaint();
 				}
 				else {
 					numChannelInquiry++;
 					storeInfo(channelList.get(numChannelInquiry - 2).getContrastImageFile().imageProcessing(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension, pixelFraction, colorArray.get(numChannelInquiry - 2).getRed(), colorArray.get(numChannelInquiry - 2).getGreen(), colorArray.get(numChannelInquiry - 2).getBlue(), PixelRangeList.get(numChannelInquiry - 2).getLower(), PixelRangeList.get(numChannelInquiry - 2).getUpper()), numChannelInquiry - 2);
-
-					searchImageProcessing();
+					setUpInputOutputPanel();
+					mainUI.revalidate();
+					mainUI.repaint();
 				}
 			}
 
 		});	}
 
+	public static void setUpInputOutputPanel() {
+		inputOutputPanel.removeAll();
+		while(selectBoxArray.size() > 0)
+		{
+			selectBoxArray.remove(selectBoxArray.size() - 1);
+		}
+		JLabel numLabel = new JLabel("Number of Channels: " + channelList.size());
+		inputOutputPanel.add(numLabel);
+		skip1Col(inputOutputPanel);
+		for(int i = 0; i < channelList.size(); i++)
+		{
+			JLabel channelRepName = new JLabel("Channel #" + (i+1) + ": " + channelList.get(i).getName());
+			JCheckBox selectbox = new JCheckBox("Selected for Search");
+			selectBoxArray.add(selectbox);
+			inputOutputPanel.add(channelRepName);
+			inputOutputPanel.add(selectbox);
+		}
+		JButton search = new JButton("Search");
+		
+		inputOutputPanel.add(search);
+		JLabel numCell = new JLabel("Final Cell Count: " + numCellFound);
+		inputOutputPanel.add(numCell);
+		
+		search.addActionListener(new ActionListener() {
+					@Override
+					public void actionPerformed(ActionEvent e) {
+						int count = 0;
+						for(int i = 0; i < selectBoxArray.size(); i++)
+						{
+						if(selectBoxArray.get(i).getSelectedObjects() != null)
+								count++;
+						}
+						int[] askArray = new int[count];
+						count = 0;
+						for(int i = 0; i < selectBoxArray.size(); i++)
+						{
+							if(selectBoxArray.get(i).getSelectedObjects() != null)
+							{
+								askArray[count] = i;
+								count++;
+							}
+						}
+						print(askArray);
+						numCell.setText("Final Cell Count: " + numCellFound);
+						inputOutputPanel.revalidate();
+						inputOutputPanel.repaint();
+					}
+				});
+
+		inputOutputPanel.revalidate();
+		inputOutputPanel.repaint();
+	}
+		
+		
 	public static void loadPanels() {
 
 		JScrollPane jsp = new JScrollPane(fileChooserPanel);
@@ -706,7 +787,14 @@ public class ImageInterface {
 		p.add(EmptySpace1);
 		p.add(EmptySpace2);
 	}
-
+	
+	public static void skip2Col(JPanel p) {
+		JLabel EmptySpace = new JLabel("");
+		JLabel EmptySpace1 = new JLabel("");
+		p.add(EmptySpace);
+		p.add(EmptySpace1);
+	}
+		
 	public static void skip1Col(JPanel p) {
 		JLabel EmptySpace = new JLabel("");
 		p.add(EmptySpace);
@@ -756,7 +844,7 @@ public class ImageInterface {
 
 	}
 
-	public static void searchImageProcessing() {
+	/*public static void searchImageProcessing() {
 		// ---Start Asking---//
 		Scanner Scan = new Scanner(System.in);
 		int[] inquiry;
@@ -770,7 +858,7 @@ public class ImageInterface {
 
 		print(inquiry); //0 1
 
-	}
+	}*/
 
 	private static void print(int[] inquiry) {
 		int count = 0;
@@ -783,93 +871,7 @@ public class ImageInterface {
 		String TextFileName = FileName + ".docx";
 		String PicFileName = FileName + ".jpg";
 		boolean newline;
-
-		/*try {
-			FileWriter table = new FileWriter(TextFileName);
-			String Temp = "2016.04.-DP.jpg";
-			DisplayPic = new Picture(Temp);
-			DisplayPic.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension,
-					pixelFraction);
-			// look for booleans
-
-			for (int rr = 0; rr < motherMatrix.length; rr++) {
-				for (int cc = 0; cc < motherMatrix[0].length; cc++) {
-					int counter = 0;
-					for (int r = 0; r < motherMatrix[0][0].length; r++) {
-						for (int c = 0; c < motherMatrix[0][0][0].length; c++) {
-							boolean markIt = true;
-							for (int i = 0; i < channelList.size(); i++) {
-								boolean asked = true;
-								// for(int j = 0; j < inquiry.length; j++)
-								// {
-								// if(inquiry[j] == i)
-								// {
-								// asked = true;
-								// }
-								// }
-								if (asked) {
-									if (!motherMatrix[rr][cc][r][c][i]) {
-										markIt = false;
-									}
-								}
-
-							}
-							if (markIt) {
-								DisplayPic.drawTargets(rr, cc, r, c);
-								displayMatrix[r][c] = true;
-								System.out.println(rr + " " + cc + " " + r + " " + c);
-								counter++;
-							} else {
-								displayMatrix[r][c] = false;
-							}
-
-						}
-					}
-					if (counter > 0) {
-						table.write("Location: (" + rr + ", " + cc + ")\n");
-						System.out.println("Location: (" + rr + ", " + cc + ")\n");
-						for (int r = 0; r <= displayMatrix.length; r++) {
-							if (r == 0) {
-								table.write("   A B C D E F G H I J K L M N \n");
-								System.out.println("   A B C D E F G H I J K L M N \n");
-							} else {
-								for (int c = 0; c <= displayMatrix[0].length; c++) {
-									if (c == 0) {
-										if (r < 10) {
-											table.write(r + "  ");
-											System.out.print(r + "  ");
-										} else {
-											table.write(r + " ");
-											System.out.print(r + " ");
-										}
-									} else {
-										String line = "";
-										if (displayMatrix[r - 1][c - 1] == false) {
-											line = line + "- ";
-										} else {
-											line = line + "X ";
-											count++;
-										}
-										if (c == displayMatrix[0].length) {
-											line = line + "\n";
-										}
-										table.write(line);
-										System.out.print(line);
-									}
-								}
-							}
-						}
-						table.write("Final Cell Count: " + count + "\n");
-						System.out.println("Final Cell Count: " + count);
-						System.out.println();
-					}
-				}
-			}
-			DisplayPic.write(PicFileName);
-			table.close();
-		} catch (IOException i) {
-			System.out.println("Error: " + i.getMessage());
-		}*/
+		
 		try
 		{
 			FileWriter table = new FileWriter(TextFileName);
@@ -906,7 +908,6 @@ public class ImageInterface {
 									{
 										markIt = false;
 									}
-									System.out.println(i);
 								}
 								else
 								{
@@ -914,12 +915,10 @@ public class ImageInterface {
 									{
 										markIt = false;
 									}
-									//System.out.println(i);
 								}
 							}
 							if(markIt)
 							{
-								System.out.println("markIt was true");
 								DisplayPic.drawTargets(rr, cc, r, c);
 								displayMatrix[r][c] = true;
 								counter++;
@@ -958,7 +957,7 @@ public class ImageInterface {
 								  }
 								  else
 								  {  
-									  String line = "";           
+									  String line = "";   
 									  if(displayMatrix[r - 1][c - 1] == false)
 									  {  
 										  line = line + "- ";
@@ -980,6 +979,7 @@ public class ImageInterface {
 						}
 						table.write("Final Cell Count: " + count + "\n");
 						System.out.println("Final Cell Count: " + count);
+						numCellFound = count;
 						System.out.println();
 					}
 				}
@@ -991,7 +991,6 @@ public class ImageInterface {
 		{
 			System.out.println("Error: " + i.getMessage());
 		}
-
 	}
 }
 
@@ -1127,6 +1126,7 @@ class Channel {
 				fileChooserPanel.remove(EmptySpace);
 				fileChooserPanel.remove(EmptySpace1);
 				ImageInterface.deleteChannel(classReference);
+				ImageInterface.setUpInputOutputPanel();
 
 				for (int i = 0; i < channelList.size(); i++) {
 					channelList.get(i).changeChannelNumber(i + 1);
@@ -1139,6 +1139,7 @@ class Channel {
 					imageViewPanel.revalidate();
 					imageViewPanel.repaint();
 				}
+				//setUpInputOutputPanel();
 			}
 		});
 
