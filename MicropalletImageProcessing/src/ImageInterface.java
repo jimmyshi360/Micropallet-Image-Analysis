@@ -29,6 +29,7 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Frame;
+import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
 import java.awt.GridBagConstraints;
@@ -85,7 +86,7 @@ public class ImageInterface {
 	public static JPanel imageEditPanel;
 	public static String previousPath=".";
 	public static String hintIconPath = "src/resources/images/hint.jpg";
-	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException, IOException {
 		try {
 		
 		    for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
@@ -113,6 +114,7 @@ public class ImageInterface {
 		setUpInputOutputPanel();
 
 		loadPanels();
+		
 	}
 	public static void setPreviousPath(String p)
 	{
@@ -746,9 +748,10 @@ public class ImageInterface {
 		UIWindow.setVisible(true);
 	}
 
-	public static void loadFrame() {
+	public static void loadFrame() throws IOException {
 		
 		UIWindow = new JFrame(gc);
+		
 		UIWindow.setTitle("Image Processing Tool");
 		UIWindow.setExtendedState(Frame.MAXIMIZED_BOTH);
 
@@ -1234,3 +1237,4 @@ class PixelRange {
 		return upperBound;
 	}
 }
+
