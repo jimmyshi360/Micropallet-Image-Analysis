@@ -83,6 +83,7 @@ public class ImageInterface {
 	public static double pixelFraction = 0;
 	public static int numCellFound = 0;
 	public static JPanel imageEditPanel;
+	public static String previousPath=".";
 	public static String hintIconPath = "src/resources/images/hint.jpg";
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
 		try {
@@ -113,7 +114,14 @@ public class ImageInterface {
 
 		loadPanels();
 	}
-
+	public static void setPreviousPath(String p)
+	{
+		previousPath=p;
+	}
+	public static String getPreviousPath()
+	{
+		return previousPath;
+	}
 	public static void setUpFileChooserPanel() {
 		JLabel ImageLabel = new JLabel();
 
@@ -647,6 +655,8 @@ public class ImageInterface {
 			}
 
 		});	}
+	
+	
 
 	public static void setUpInputOutputPanel() {
 		inputOutputPanel.removeAll();
@@ -1028,11 +1038,14 @@ class Channel {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				JFileChooser chooser = new JFileChooser();
-
+				 chooser.setCurrentDirectory(new java.io.File(ImageInterface.getPreviousPath()));
+				 
 				FileNameExtensionFilter filter = new FileNameExtensionFilter("JPG & GIF Images", "jpg", "gif");
 				chooser.setFileFilter(filter);
 				int returnVal = chooser.showOpenDialog(null);
 				if (returnVal == JFileChooser.APPROVE_OPTION)
+				{
+					ImageInterface.setPreviousPath(chooser.getCurrentDirectory().getAbsolutePath());
 					l.setText(chooser.getSelectedFile().getName());
 				if (channelNumber == 1) {
 					System.out.println(chooser.getSelectedFile().getAbsolutePath());
@@ -1042,6 +1055,7 @@ class Channel {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
+				}
 				}
 				plainImageFile = new Picture(chooser.getSelectedFile().getAbsolutePath());
 				filePath = chooser.getSelectedFile().getAbsolutePath();
@@ -1054,13 +1068,17 @@ class Channel {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				JFileChooser chooser = new JFileChooser();
-
+				 chooser.setCurrentDirectory(new java.io.File(ImageInterface.getPreviousPath()));
+			
 				FileNameExtensionFilter filter = new FileNameExtensionFilter("JPG & GIF Images", "jpg", "gif");
 				chooser.setFileFilter(filter);
 				int returnVal = chooser.showOpenDialog(null);
 				if (returnVal == JFileChooser.APPROVE_OPTION)
+				{
+					ImageInterface.setPreviousPath(chooser.getCurrentDirectory().getAbsolutePath());
 					l.setText(chooser.getSelectedFile().getName());
 				contrastImageFile = new Picture(chooser.getSelectedFile().getAbsolutePath());
+				}
 			}
 		});
 	}
