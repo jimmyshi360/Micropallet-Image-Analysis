@@ -87,6 +87,7 @@ public class ImageInterface {
 	public static String previousPath=".";
 	public static String hintIconPath = "src/resources/images/hint.jpg";
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException, IOException {
+		
 		try {
 		
 		    for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
