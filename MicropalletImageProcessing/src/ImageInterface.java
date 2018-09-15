@@ -69,6 +69,7 @@ public class ImageInterface {
 	public static ArrayList<PixelRange> PixelRangeList = new ArrayList<PixelRange>();
 	public static ArrayList<JCheckBox> selectBoxArray = new ArrayList<JCheckBox>();
 	public static boolean[][][][][] motherMatrix;
+	public static Overlay o1;
 	public static Picture DisplayPic;
 	public static JLabel numChannels;
 	public static JButton addChannelButton;
@@ -85,7 +86,7 @@ public class ImageInterface {
 	public static int numCellFound = 0;
 	public static JPanel imageEditPanel;
 	public static String previousPath=".";
-	public static String hintIconPath = "src/resources/images/hint.jpg";
+	public static String hintIconPath = "images/hint.jpg";
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException, IOException {
 		
 		try {
@@ -196,7 +197,9 @@ public class ImageInterface {
 
 		fileChooserPanel.add(addChannelButton);
 		fileChooserPanel.add(numChannelsLabel);
-		skip1Col(fileChooserPanel);
+		o1=new Overlay(fileChooserPanel);
+		o1.appendComponent();
+		//skip1Col(fileChooserPanel);
 		fileChooserPanel.add(ClearFileChooserButton);
 		fileChooserPanel.add(SaveFileChooserButton);
 		fileChooserPanel.add(SpaceFill);
@@ -296,7 +299,7 @@ public class ImageInterface {
 			}
 		});
 		JTextField GridDimensionInput = new JTextField("16");
-		JLabel PixelFraction = new JLabel("Pixel Fraction: ");
+		JLabel PixelFraction = new JLabel("Pixel Fraction: 0.65");
 		JButton PixelFractionExp = new JButton("", hintIcon);
 		tempButtonArray.add(PixelFractionExp);
 		PixelFractionExp.addActionListener(new ActionListener() {
@@ -334,36 +337,19 @@ public class ImageInterface {
 		    labelTable.put(new Integer(0), new JLabel("0.0"));
 		    PixelFractionInputSlider.setLabelTable( labelTable );
 		    PixelFractionInputSlider.setPaintLabels(true);
-//		    
-//		    PixelFractionInputSlider.addChangeListener(new javax.swing.event.ChangeListener(){
-//		        public void stateChanged(javax.swing.event.ChangeEvent ce){
-//		    		System.out.println("<<Saved Parameters>>");
-//					startingRow = Integer.parseInt(StartingRowInput.getText());
-//					System.out.println("Starting Row: " + startingRow);
-//					startingCol = Integer.parseInt(StartingColInput.getText());
-//					System.out.println("Starting Column: " + startingCol);
-//					endingRow = Integer.parseInt(EndingRowInput.getText());
-//					System.out.println("Ending Row: " + endingRow);
-//					endingCol = Integer.parseInt(EndingColInput.getText());
-//					System.out.println("Ending Column: " + endingCol);
-//					wellSize = Integer.parseInt(WellSizeInput.getText());
-//					System.out.println("Well Size: " + wellSize);
-//					borderSize = Integer.parseInt(BorderSizeInput.getText());
-//					System.out.println("Border Size: " + borderSize);
-//					gridDimension = Integer.parseInt(GridDimensionInput.getText());
-//					System.out.println("Grid Dimension: " + gridDimension);
-//					pixelFraction = PixelFractionInputSlider.getValue()/100.0;
-//					System.out.println("Pixel Fraction: " + pixelFraction);
-//					System.out.println();
-//					Picture picture1 = new Picture(channelList.get(0).getFilePath());
-//					picture1.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension,
-//							pixelFraction);
-//					imageViewPanel.removeAll();
-//					PictureExplorer exp = new PictureExplorer(picture1, imageViewPanel);
-//					imageViewPanel.revalidate();
-//					imageViewPanel.repaint();
-//		        }
-//		      });
+		    
+		    PixelFractionInputSlider.addChangeListener(new javax.swing.event.ChangeListener(){
+		        public void stateChanged(javax.swing.event.ChangeEvent ce){
+					if(PixelFractionInputSlider.getValue() == 100)
+						PixelFraction.setText("Pixel Fraction: 1.00");
+					else if(PixelFractionInputSlider.getValue() < 10)
+						PixelFraction.setText("Pixel Fraction: 0.0" + PixelFractionInputSlider.getValue());
+					else
+		    			PixelFraction.setText("Pixel Fraction: 0." + PixelFractionInputSlider.getValue());
+					imagePrepPanel.revalidate();
+					imagePrepPanel.repaint();
+		        }
+		      });
 		    //make a new draw frame method that delivers a transparent picture including 
 		    
 		JButton ClearButton = new JButton("Clear");
@@ -455,6 +441,7 @@ public class ImageInterface {
 					picture2.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension, pixelFraction);
 					String name = "Channel #" + (i+1) + " " + channelList.get(i).getName() + " - Edit.jpg";
 					picture2.write(name);
+					
 				}
 				picture1 = channelList.get(0).getContrastImageFile();
 				imageViewPanel.removeAll();
@@ -858,21 +845,6 @@ public class ImageInterface {
 
 	}
 
-	/*public static void searchImageProcessing() {
-		// ---Start Asking---//
-		Scanner Scan = new Scanner(System.in);
-		int[] inquiry;
-		System.out.println("How many colors are in your combination of interest?");
-		int num = Scan.nextInt();
-		inquiry = new int[num];
-		System.out.println("Enter all the numbers of interest with space in-between");
-		for (int i = 0; i < num; i++) {
-			inquiry[i] = Scan.nextInt() - 1;
-		}
-
-		print(inquiry); //0 1
-
-	}*/
 
 	private static void print(int[] inquiry) {
 		int count = 0;
@@ -889,9 +861,7 @@ public class ImageInterface {
 		try
 		{
 			FileWriter table = new FileWriter(TextFileName);
-			String CoreFile = "2016.04.";
-			String Temp = CoreFile + "-DP.jpg";
-			DisplayPic = new Picture(Temp);
+			DisplayPic = o1.getPicture();
 			DisplayPic.drawFrame(startingRow, startingCol, endingRow, endingCol, wellSize, borderSize, gridDimension,
 					pixelFraction);
 			//look for booleans
@@ -1008,6 +978,59 @@ public class ImageInterface {
 	}
 }
 
+class Overlay{
+	private JPanel panel;
+	private Picture imageFile = null;
+	
+	public Overlay(JPanel panel)
+	{
+		this.panel=panel;
+	}
+	
+	public Picture getPicture()
+	{
+		return imageFile;
+	}
+	
+	public void addChooseFileButtonListener(JButton b) {
+			b.addActionListener(new ActionListener() {
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					JFileChooser chooser = new JFileChooser();
+					 chooser.setCurrentDirectory(new java.io.File(ImageInterface.getPreviousPath()));
+					 
+					FileNameExtensionFilter filter = new FileNameExtensionFilter("JPG & GIF Images", "jpg", "gif");
+					chooser.setFileFilter(filter);
+					int returnVal = chooser.showOpenDialog(null);
+					if (returnVal == JFileChooser.APPROVE_OPTION)
+					{//nope
+					}
+					imageFile = new Picture(chooser.getSelectedFile().getAbsolutePath());
+				}
+			});
+		}
+		public void addButtonHoverEffectGreen(JButton button)
+			{
+				button.addMouseListener(new java.awt.event.MouseAdapter() {
+				    public void mouseEntered(java.awt.event.MouseEvent evt) {
+				        button.setBackground(Color.GREEN);
+				    }
+
+				    public void mouseExited(java.awt.event.MouseEvent evt) {
+				        button.setBackground(UIManager.getColor("control"));
+				    }
+				});
+			}
+			public void appendComponent()
+			{
+				JButton overlayButton=new JButton("Choose Overlay Image");
+				this.addChooseFileButtonListener(overlayButton);
+				this.addButtonHoverEffectGreen(overlayButton);
+				panel.add(overlayButton);
+				//panel.add(new JLabel(""));
+				//panel.add(new JLabel(""));
+			}
+}
 class Channel {
 
 	private Picture plainImageFile = null;
