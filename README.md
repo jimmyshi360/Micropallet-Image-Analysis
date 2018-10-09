@@ -21,7 +21,7 @@ Open in any IDE and run "ImageInterface.java". Alternatively, manually build a c
 
 ## Built With
 
-* [Java (Swing for the frontend)]
+* Java (Swing for the frontend)
 
 ## Versioning
 
