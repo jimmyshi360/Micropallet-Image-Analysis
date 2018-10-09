@@ -1,8 +1,8 @@
 
 # Micropallet Array Image Processing Software
-Created in association with University of California Irvine researchers.
+Created in association with University of California Irvine researchers (Jo and Guilia).
 
-This repository contains the Java source code for a user interface and backend algorithms for tallying radioactive markers across multiple high and low contrast imaging channels produced after a micropallet experiemnt.
+This repository contains the Java source code for a user interface and backend algorithms for tallying radioactive markers across multiple high and low contrast imaging channels produced after a micropallet experiment.
 
 ![alt text](https://image.ibb.co/jNTvGe/Screen_Shot_2018_09_17_at_10_52_32_PM.png)
 ![alt text](https://image.ibb.co/hJEhUz/Screen_Shot_2018_09_17_at_10_51_59_PM.png)
