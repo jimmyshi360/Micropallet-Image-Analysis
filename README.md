@@ -7,7 +7,7 @@ This repository contains the Java source code for a user interface and backend a
 ![alt text](https://image.ibb.co/jNTvGe/Screen_Shot_2018_09_17_at_10_52_32_PM.png)
 ![alt text](https://image.ibb.co/hJEhUz/Screen_Shot_2018_09_17_at_10_51_59_PM.png)
 
-The end goal is to provide researchers with a smooth and rapid way to analyze Micropallet experiments. A fully functional prototype version of the software was already delivered and under experimental use.
+The end goal is to provide researchers with a smooth and rapid way to analyze Micropallet experiments.
 
 ## Getting Started
 
