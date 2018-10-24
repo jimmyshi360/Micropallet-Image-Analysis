@@ -440,8 +440,17 @@ public class SimplePicture implements DigitalPicture
 			throw new IOException(this.fileName +" could not be opened. Check that you specified the path");
 			}
 		}
-		
-		bufferedImage = ImageIO.read(file);
+		System.out.println(this.extension);
+		if(this.extension.equals("tif"))
+		{	
+			File filePNG = new File("Images/DONTCHANGE.jpg");
+			//convert
+			final BufferedImage tif = ImageIO.read(file);
+		    ImageIO.write(tif, "jpg", filePNG);
+		    bufferedImage = ImageIO.read(filePNG);
+		}
+		else
+			bufferedImage = ImageIO.read(file);
 	}
 	
 	

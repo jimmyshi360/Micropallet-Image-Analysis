@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 import java.io.*;
-
+import com.sun.media.imageio.plugins.tiff.*;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -1067,7 +1067,7 @@ class Channel {
 				JFileChooser chooser = new JFileChooser();
 				 chooser.setCurrentDirectory(new java.io.File(ImageInterface.getPreviousPath()));
 				 
-				FileNameExtensionFilter filter = new FileNameExtensionFilter("JPG & GIF Images", "jpg", "gif");
+				FileNameExtensionFilter filter = new FileNameExtensionFilter("PNG, TIF, JPG & GIF Images", "jpg", "gif", "png", "tif");
 				chooser.setFileFilter(filter);
 				int returnVal = chooser.showOpenDialog(null);
 				if (returnVal == JFileChooser.APPROVE_OPTION)
@@ -1097,7 +1097,7 @@ class Channel {
 				JFileChooser chooser = new JFileChooser();
 				 chooser.setCurrentDirectory(new java.io.File(ImageInterface.getPreviousPath()));
 			
-				FileNameExtensionFilter filter = new FileNameExtensionFilter("JPG & GIF Images", "jpg", "gif");
+				FileNameExtensionFilter filter = new FileNameExtensionFilter("PNG, TIF, JPG & GIF Images", "jpg", "gif", "png", "tif");
 				chooser.setFileFilter(filter);
 				int returnVal = chooser.showOpenDialog(null);
 				if (returnVal == JFileChooser.APPROVE_OPTION)
