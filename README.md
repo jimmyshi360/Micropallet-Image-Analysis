@@ -4,7 +4,7 @@ Created in association with University of California Irvine researchers (Jo and 
 
 This repository contains the Java source code for a user interface and backend algorithms for tallying radioactive markers across multiple high and low contrast imaging channels produced after a micropallet experiment.
 
-![alt text](https://image.ibb.co/jNTvGe/Screen_Shot_2018_09_17_at_10_52_32_PM.png)
+![alt text](https://i.imgur.com/gcLbVPi.jpg)
 ![alt text](https://image.ibb.co/hJEhUz/Screen_Shot_2018_09_17_at_10_51_59_PM.png)
 
 The end goal is to provide researchers with a smooth and rapid way to analyze Micropallet experiments.
