@@ -1,11 +1,12 @@
 
 # Micropallet Array Image Processing Software
-Created in association with University of California Irvine researchers (Jo and Guilia) as well as Yihong Sun.
+Created in association with University of California Irvine Cancer Research Institute - Nelson Lab as well as Jimmy Shi.
 
 This repository contains the Java source code for a user interface and backend algorithms for tallying radioactive markers across multiple high and low contrast imaging channels produced after a micropallet experiment.
 
-![alt text](https://i.imgur.com/gcLbVPi.jpg)
-![alt text](https://image.ibb.co/hJEhUz/Screen_Shot_2018_09_17_at_10_51_59_PM.png)
+![alt text](https://i.imgur.com/NngeFEf.png)
+![alt text](https://i.imgur.com/M2zUbtw.png)
+![alt text](https://i.imgur.com/LpEK7Cd.png)
 
 The end goal is to provide researchers with a smooth and rapid way to analyze Micropallet experiments.
 
@@ -41,4 +42,4 @@ This project is licensed under the GNU General Public License License - see the 
 
 ## Acknowledgments
 
-* Special thanks to the University of California Irvine research group (Jo, Guilia) for overseeing this project.
+* Special thanks to the University of California Irvine Cancer Research Institute Nelson Lab for overseeing this project.
