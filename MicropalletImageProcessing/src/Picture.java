@@ -10,6 +10,7 @@ import java.io.*;
 
 public class Picture extends SimplePicture
 {
+      
       private String fileName;
       private BufferedImage bufferedImage;
       private String extension;
@@ -21,9 +22,12 @@ public class Picture extends SimplePicture
       private int wellborder;
       private int StartingRow;
       private int StartingCol;
-      private int valueR;
-      private int valueB;
-      private int valueG;
+      private int valueRl;
+      private int valueBl;
+      private int valueGl;
+      private int valueRu;
+      private int valueBu;
+      private int valueGu;
       private int hit1;
       private int hit2;
       private int dimension;
@@ -38,15 +42,22 @@ public class Picture extends SimplePicture
    }
 	public Picture(String fileName)
 	{
+		
 		// let the parent class handle this fileName
       super(fileName);
 	}
    
+   public Picture(String fileName, int limit)
+   {
+      super(fileName, limit);
+   }
+   
 	////////////////////// methods ///////////////////////////////////////
    
-	public boolean[][][][] imageProcessing(int startingRow, int startingCol, int endingRow, int endingCol, int well, int border, int dim, double frac, int rrr, int gg, int bb, int h1, int h2)
+	public boolean[][][][] imageProcessing(int startingRow, int startingCol, int endingRow, int endingCol, int well, int border, int dim, double frac, int rrr, int gg, int bb, int redUpp, int greenUpp, int blueUpp, int h1, int h2)
 	{
-      image = this.getPixels2D();
+
+	   image = this.getPixels2D();
       StartingRow = startingRow;
       StartingCol = startingCol;
       borderLength = border;
@@ -56,21 +67,25 @@ public class Picture extends SimplePicture
       numPixShiftDown = endingRow - startingRow;
       numPixShiftRight = ((int)((double) numPixShiftDown / (endingCol - startingCol) * image.length) * -1) - 1;
       fraction = frac;
-      valueR = rrr;
-      valueB = bb;
-      valueG = gg;
+      valueRl = rrr;
+      valueBl = bb;
+      valueGl = gg;
+      valueRu = redUpp;
+      valueBu = blueUpp;
+      valueGu = greenUpp;
       hit1 = h1;
       hit2 = h2;
       
-      jumpingNum = (int)Math.sqrt((double) h1 / 3.1415);
+      jumpingNum = (int)Math.sqrt((double) h1);
       
       if(jumpingNum < 1)
       {
          jumpingNum = 1;
       }
       
-      int R = (int)(image.length / (dimension * (wellborder + fraction)));
-      int C = (int)(image[0].length / (dimension * (wellborder + fraction)));
+      int R = (int)((image.length - StartingRow - Math.abs(numPixShiftDown)) / (dimension * (wellborder + fraction)));
+      int C = (int)((image[0].length - StartingCol - Math.abs(numPixShiftRight)) / (dimension * (wellborder + fraction)));
+
       
       isPresent = new boolean[R][C][dim][dim];
       for(int ROW = 0; ROW < R; ROW++)
@@ -114,13 +129,17 @@ public class Picture extends SimplePicture
       int EC = SC + wellLength;
       
       int counter = 0;
+      outer:
       for(int row = SR; row <= ER; row += jumpingNum)
       {
          for(int col = SC; col <= EC; col += jumpingNum)
          {
-            if ((image[row][col].getBlue() > valueB) && (image[row][col].getGreen() > valueG) && (image[row][col].getRed() > valueR))
+            if (((image[row][col].getBlue() > valueBl) && (image[row][col].getGreen() > valueGl) && (image[row][col].getRed() > valueRl)) && ((image[row][col].getBlue() < valueBu) && (image[row][col].getGreen() < valueGu) && (image[row][col].getRed() < valueRu)))
             {
-               counter++;       
+               counter++; 
+               SR = row - jumpingNum + 1;
+               SC = col - jumpingNum + 1;
+               break outer;      
             }
          }
       }     
@@ -135,7 +154,8 @@ public class Picture extends SimplePicture
       {
          for(int col = SC; col <= EC; col += 1)
          {
-            if ((image[row][col].getBlue() > valueB) && (image[row][col].getGreen() > valueG) && (image[row][col].getRed() > valueR))
+            if (((image[row][col].getBlue() > valueBl) && (image[row][col].getGreen() > valueGl) && (image[row][col].getRed() > valueRl)) && ((image[row][col].getBlue() < valueBu) && (image[row][col].getGreen() < valueGu) && (image[row][col].getRed() < valueRu)))
+
             {
                counter++;       
             }
@@ -158,8 +178,35 @@ public class Picture extends SimplePicture
       numPixShiftRight = ((int)((double) numPixShiftDown / (endingCol - startingCol) * image.length) * -1) - 1;
       fraction = frac;
       
-      int R = (int)(image.length / (dimension * (wellborder + fraction) * 0.987)) - 1;
-      int C = (int)(image[0].length / (dimension * (wellborder + fraction) * 0.987)) - 1;
+      int R = (int)((image.length - StartingRow - Math.abs(numPixShiftDown)) / (dimension * (wellborder + fraction)));
+      int C = (int)((image[0].length - StartingCol - Math.abs(numPixShiftRight)) / (dimension * (wellborder + fraction)));
+      
+       class WorkerTask implements Runnable {
+    	   int rr;
+    	   WorkerTask(int rr)
+    	   {
+    		   this.rr=rr;
+    	   }
+    	   public void run() {
+ 			  
+ 			  for(int cc = 0; cc < C; cc++)
+ 		         {
+ 		            for(int r = 0; r < dim; r++)
+ 		            {
+ 		               for(int c = 0; c < dim; c++)
+ 		               {
+ 		                  draw(rr, cc, r, c);
+ 		               }
+ 		            }
+ 		         }
+ 		  }
+    	   
+       }
+       //for(int rr = 0; rr < R; rr++)
+       //{
+      // new Thread(new WorkerTask(rr)).start();
+       //}
+
       for(int rr = 0; rr < R; rr++)
       {
          for(int cc = 0; cc < C; cc++)
@@ -238,7 +285,10 @@ public class Picture extends SimplePicture
          {
             for(int Col = SC; Col <= EC; Col += 1)
             {
-               image[Row][Col].setColor(Color.GREEN);
+               if(Row == SR || Row == ER || Col == SC || Col == EC){
+                  Color nice = new Color(image[Row][Col].getRed()/2, (image[Row][Col].getGreen()+255)/2,image[Row][Col].getBlue()/2);
+                  image[Row][Col].setColor(nice);
+               }
             }
          }
       } 

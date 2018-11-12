@@ -1,0 +1,3650 @@
+Location: (0, 1)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 1
+Location: (0, 2)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 2
+Location: (0, 4)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 3
+Location: (0, 6)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 4
+Location: (0, 7)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 5
+Location: (0, 8)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 6
+Location: (0, 9)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 8
+Location: (0, 10)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 9
+Location: (0, 11)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - X - - - - 
+Final Cell Count: 12
+Location: (0, 12)
+   A B C D E F G H I J K L M N 
+1  - - - X - X - 
+2  - - - - - - - 
+3  X - X - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 16
+Location: (0, 13)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 17
+Location: (0, 14)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - X - - - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 19
+Location: (0, 15)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - X - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 22
+Location: (0, 16)
+   A B C D E F G H I J K L M N 
+1  - X - - X - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 26
+Location: (0, 17)
+   A B C D E F G H I J K L M N 
+1  - - X X - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - X - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - X - - - X - 
+Final Cell Count: 33
+Location: (0, 18)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - X - - 
+6  X X - - - - - 
+7  - - - X - X - 
+Final Cell Count: 40
+Location: (0, 19)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - - - X 
+4  - - X X - X - 
+5  - - - - - X X 
+6  - - - X - - - 
+7  - - - - - - X 
+Final Cell Count: 49
+Location: (0, 20)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - X - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - X 
+Final Cell Count: 53
+Location: (0, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 55
+Location: (0, 22)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  X - - - - - - 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - X X - X - - 
+Final Cell Count: 62
+Location: (0, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 65
+Location: (0, 24)
+   A B C D E F G H I J K L M N 
+1  - - X - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - X - X - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 70
+Location: (0, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 71
+Location: (0, 26)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 72
+Location: (0, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - X - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 74
+Location: (0, 28)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 76
+Location: (0, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 79
+Location: (0, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - X - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 80
+Location: (0, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 81
+Location: (0, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  - - - - X X - 
+Final Cell Count: 85
+Location: (0, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 86
+Location: (0, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - X - - - - - 
+7  X - - - - - - 
+Final Cell Count: 90
+Location: (0, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 91
+Location: (0, 36)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 93
+Location: (0, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - X - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 94
+Location: (1, 0)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - X - 
+7  - - - - - - - 
+Final Cell Count: 95
+Location: (1, 2)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 97
+Location: (1, 8)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 98
+Location: (1, 10)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  X - - - - - - 
+Final Cell Count: 99
+Location: (1, 11)
+   A B C D E F G H I J K L M N 
+1  - X - - X - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - X 
+7  - - - - - - - 
+Final Cell Count: 103
+Location: (1, 12)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - X - 
+7  - - - - - - - 
+Final Cell Count: 105
+Location: (1, 13)
+   A B C D E F G H I J K L M N 
+1  X - - X - - - 
+2  - - - - - - X 
+3  X - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 109
+Location: (1, 14)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - X - - 
+3  - - X - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 113
+Location: (1, 15)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 115
+Location: (1, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - X - - - - X 
+5  - X - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 119
+Location: (1, 17)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - X X - - 
+7  - - - - - X - 
+Final Cell Count: 122
+Location: (1, 18)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - - - X X - 
+6  - - - X - - - 
+7  X - - - - - - 
+Final Cell Count: 129
+Location: (1, 19)
+   A B C D E F G H I J K L M N 
+1  - - - X - - X 
+2  - - - - - - - 
+3  - - - - X - X 
+4  - - X - - - - 
+5  - - - - - - - 
+6  - X - - X - - 
+7  - - - - - - - 
+Final Cell Count: 136
+Location: (1, 20)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 139
+Location: (1, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 142
+Location: (1, 22)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - X - - - 
+Final Cell Count: 146
+Location: (1, 23)
+   A B C D E F G H I J K L M N 
+1  X - - X - - - 
+2  X - - - - - - 
+3  - - - - - - - 
+4  X - - - - - X 
+5  - X - - - - - 
+6  X - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 153
+Location: (1, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - X - - 
+4  - - - - - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 156
+Location: (1, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 159
+Location: (1, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - X - 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 161
+Location: (1, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 162
+Location: (1, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 163
+Location: (1, 29)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - X X - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 168
+Location: (1, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  - - - - - - - 
+Final Cell Count: 170
+Location: (1, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - X - - - - - 
+5  X - - - - - - 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 174
+Location: (1, 32)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - - - 
+3  - - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 176
+Location: (1, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - X - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 178
+Location: (1, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - X X 
+2  - - - - - - - 
+3  - - X - - - - 
+4  - - X - - - - 
+5  - X X - - - - 
+6  - - - - - - - 
+7  - - X - - - - 
+Final Cell Count: 185
+Location: (1, 35)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  X - - X - - - 
+4  - X - - - - - 
+5  - - - - - - X 
+6  - - - - - - - 
+7  - - - X X - - 
+Final Cell Count: 192
+Location: (1, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X X - - - - 
+Final Cell Count: 195
+Location: (1, 37)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 199
+Location: (2, 2)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 200
+Location: (2, 3)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  - - X - - - - 
+7  - - - - - X - 
+Final Cell Count: 204
+Location: (2, 9)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 205
+Location: (2, 12)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 206
+Location: (2, 13)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 208
+Location: (2, 14)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 209
+Location: (2, 15)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - X 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 213
+Location: (2, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - X - - - X 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - X - - - X 
+Final Cell Count: 219
+Location: (2, 17)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - X - X - 
+7  X X - X - - - 
+Final Cell Count: 224
+Location: (2, 18)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X X - 
+7  - - - - - - - 
+Final Cell Count: 227
+Location: (2, 19)
+   A B C D E F G H I J K L M N 
+1  - - X - - - X 
+2  - - - - - - - 
+3  - - X - - X X 
+4  X - - - X - - 
+5  - - - - - - - 
+6  - - X X - - - 
+7  X - - - - - - 
+Final Cell Count: 237
+Location: (2, 20)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - X - 
+Final Cell Count: 241
+Location: (2, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - X X - X 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 245
+Location: (2, 22)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - - - - - - - 
+5  - - - - - - X 
+6  - - - - - X - 
+7  - - - - - X - 
+Final Cell Count: 250
+Location: (2, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - X - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 251
+Location: (2, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  X - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - X - - - 
+7  - X - - X - - 
+Final Cell Count: 257
+Location: (2, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 261
+Location: (2, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - - - - - - X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 263
+Location: (2, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - X - X X - X 
+5  - X - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 270
+Location: (2, 28)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 272
+Location: (2, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 274
+Location: (2, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - - - - - - 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - X - - - - - 
+Final Cell Count: 277
+Location: (2, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - X - 
+7  - - - - - - - 
+Final Cell Count: 279
+Location: (2, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 280
+Location: (2, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - X - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 282
+Location: (2, 34)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  - - - - X - - 
+7  - - - X - X - 
+Final Cell Count: 288
+Location: (2, 35)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - - - 
+3  - - X - - - - 
+4  X X X - - - - 
+5  - - - - - X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 294
+Location: (2, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 296
+Location: (2, 37)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  X - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 298
+Location: (2, 38)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 300
+Location: (3, 1)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 301
+Location: (3, 5)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 302
+Location: (3, 12)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  - - - - - X - 
+Final Cell Count: 304
+Location: (3, 13)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 305
+Location: (3, 14)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 306
+Location: (3, 15)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - X - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 308
+Location: (3, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - X - - 
+6  - X - - - - - 
+7  - - X - - - - 
+Final Cell Count: 311
+Location: (3, 17)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 314
+Location: (3, 18)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - X - - - - 
+3  - - - X - - - 
+4  X X - - - - - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - X - - - - 
+Final Cell Count: 321
+Location: (3, 19)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 322
+Location: (3, 20)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 325
+Location: (3, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - X - 
+7  - - - - - X - 
+Final Cell Count: 329
+Location: (3, 22)
+   A B C D E F G H I J K L M N 
+1  X - - - X - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 332
+Location: (3, 23)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - X - - - - 
+5  - - - - - X - 
+6  - X - - - X - 
+7  - - - - - - X 
+Final Cell Count: 338
+Location: (3, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 342
+Location: (3, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - X - - - - 
+Final Cell Count: 343
+Location: (3, 26)
+   A B C D E F G H I J K L M N 
+1  X - - - X - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 345
+Location: (3, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  X - - - - X - 
+7  - - - - - - - 
+Final Cell Count: 349
+Location: (3, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 350
+Location: (3, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 351
+Location: (3, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  X - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 352
+Location: (3, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - X - X 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - - - X - 
+6  - - - - - - X 
+7  - - - - - - - 
+Final Cell Count: 358
+Location: (3, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 362
+Location: (3, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - X - - - - X 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 367
+Location: (3, 34)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X X - - - 
+6  - - - - - - X 
+7  - - - - - - - 
+Final Cell Count: 372
+Location: (3, 35)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - X - - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 376
+Location: (3, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - X - - - - 
+4  - - - - - - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 379
+Location: (3, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 381
+Location: (3, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - X - - - - - 
+6  - - - - - - - 
+7  - - X - - - - 
+Final Cell Count: 384
+Location: (4, 3)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 385
+Location: (4, 11)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 386
+Location: (4, 12)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 388
+Location: (4, 13)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 389
+Location: (4, 14)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 390
+Location: (4, 15)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 394
+Location: (4, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - - - X - - 
+5  - - - - - - - 
+6  - - - - - X - 
+7  - - - - - - - 
+Final Cell Count: 397
+Location: (4, 17)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 399
+Location: (4, 18)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 401
+Location: (4, 19)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 404
+Location: (4, 20)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 406
+Location: (4, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 407
+Location: (4, 22)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - X 
+3  - X - - - - - 
+4  - - X X - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 413
+Location: (4, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  X - - - - X - 
+3  - - - - - - - 
+4  - X - - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 418
+Location: (4, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 420
+Location: (4, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - X - - - 
+Final Cell Count: 423
+Location: (4, 26)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - X - - - 
+6  X - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 426
+Location: (4, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - X X - - - - 
+Final Cell Count: 429
+Location: (4, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - X - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 431
+Location: (4, 30)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - X - - - - 
+3  - - - X - - - 
+4  - - X - - - X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - X - 
+Final Cell Count: 438
+Location: (4, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - X - - - 
+6  - X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 441
+Location: (4, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - X - 
+6  - - - X - - - 
+7  X - - - - - - 
+Final Cell Count: 446
+Location: (4, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  X - - - - - - 
+3  - - - - - - - 
+4  - - X - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 448
+Location: (4, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - X X 
+2  X - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  X - - - - - - 
+Final Cell Count: 454
+Location: (4, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  X - - X - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - X - 
+7  - - - - - - - 
+Final Cell Count: 458
+Location: (4, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 459
+Location: (4, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 462
+Location: (4, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - X 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 465
+Location: (5, 5)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 466
+Location: (5, 11)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 468
+Location: (5, 15)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - X - - 
+4  - X - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 470
+Location: (5, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 472
+Location: (5, 17)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 474
+Location: (5, 18)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - X - - - X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  X - - - - - - 
+Final Cell Count: 478
+Location: (5, 19)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - - X 
+3  - - - - X X - 
+4  - - - X - - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 485
+Location: (5, 20)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - X X - - 
+7  - - - - - - - 
+Final Cell Count: 488
+Location: (5, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - X - X 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - X - 
+5  - - - - - X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 492
+Location: (5, 22)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - X - - - 
+Final Cell Count: 495
+Location: (5, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - X - - - - 
+Final Cell Count: 496
+Location: (5, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - - - - - X 
+6  - - - - - - X 
+7  - - - - - - - 
+Final Cell Count: 499
+Location: (5, 25)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - X - 
+3  - - - - - - X 
+4  - - - - - - X 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 504
+Location: (5, 26)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - - - X - - - 
+6  X - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 508
+Location: (5, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - X - - - - - 
+6  - - - - - - - 
+7  - X - - - X - 
+Final Cell Count: 512
+Location: (5, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - - - - X - 
+7  - - - - - - - 
+Final Cell Count: 514
+Location: (5, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 517
+Location: (5, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - X X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 520
+Location: (5, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - X - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 523
+Location: (5, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - X - 
+5  - - - - - - - 
+6  - - - - X X - 
+7  - - - - - - - 
+Final Cell Count: 528
+Location: (5, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 530
+Location: (5, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - - - 
+5  X - - X - - - 
+6  - - - - - - - 
+7  - - X X - X - 
+Final Cell Count: 536
+Location: (5, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - X - - - - - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 539
+Location: (5, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - X 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 540
+Location: (5, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  X - - X - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 543
+Location: (5, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 544
+Location: (6, 15)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - X - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 546
+Location: (6, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - X - - 
+6  X - - - - - - 
+7  - - X - - - - 
+Final Cell Count: 549
+Location: (6, 17)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 551
+Location: (6, 18)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - X - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 554
+Location: (6, 20)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - X 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 557
+Location: (6, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - X - - 
+4  - - - - - X - 
+5  - - X - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 561
+Location: (6, 23)
+   A B C D E F G H I J K L M N 
+1  - - X X - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - - - - - X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 566
+Location: (6, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 568
+Location: (6, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  X - - X - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 573
+Location: (6, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - - - - X - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 576
+Location: (6, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 578
+Location: (6, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - - - - - - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  X - - - - - - 
+Final Cell Count: 581
+Location: (6, 29)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - X X - 
+Final Cell Count: 584
+Location: (6, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - X - - - - 
+6  - - - X - - - 
+7  X - X X - - - 
+Final Cell Count: 590
+Location: (6, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 591
+Location: (6, 32)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  X - X - - - - 
+3  X X - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - X - - - X 
+Final Cell Count: 599
+Location: (6, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - X - - - - 
+5  X - - - - X - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 604
+Location: (6, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - X - - - - 
+3  - - - - - - X 
+4  - X - - - - - 
+5  - X - X - - - 
+6  - - - - - - - 
+7  X - - - - - - 
+Final Cell Count: 611
+Location: (6, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 613
+Location: (6, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - X - - - - 
+5  - - - - - X - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 617
+Location: (6, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 619
+Location: (7, 4)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 620
+Location: (7, 8)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 622
+Location: (7, 9)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - X - 
+7  - - - - - - - 
+Final Cell Count: 623
+Location: (7, 14)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 624
+Location: (7, 16)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 625
+Location: (7, 17)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - - - X - - - 
+5  - - - - - - X 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 628
+Location: (7, 18)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 629
+Location: (7, 20)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 631
+Location: (7, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 633
+Location: (7, 22)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  X X - - - - - 
+6  - - - - - - X 
+7  - - - - - - - 
+Final Cell Count: 637
+Location: (7, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - X 
+3  - - - - - - X 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 640
+Location: (7, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 641
+Location: (7, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 642
+Location: (7, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 645
+Location: (7, 27)
+   A B C D E F G H I J K L M N 
+1  - X - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 647
+Location: (7, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  X - - X - - - 
+7  - - X - - - - 
+Final Cell Count: 651
+Location: (7, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 654
+Location: (7, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 655
+Location: (7, 31)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 658
+Location: (7, 32)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - X - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - - - - X X 
+Final Cell Count: 664
+Location: (7, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 665
+Location: (7, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 668
+Location: (7, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 670
+Location: (7, 37)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - X - - - X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 674
+Location: (8, 1)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 675
+Location: (8, 8)
+   A B C D E F G H I J K L M N 
+1  - - - - X X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 677
+Location: (8, 14)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 678
+Location: (8, 17)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 680
+Location: (8, 19)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  X - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  - - - - - - - 
+Final Cell Count: 682
+Location: (8, 20)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 684
+Location: (8, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - X - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 687
+Location: (8, 22)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 689
+Location: (8, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  X - - - - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 692
+Location: (8, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 693
+Location: (8, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 694
+Location: (8, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 695
+Location: (8, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - X - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 698
+Location: (8, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  X - - X - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 700
+Location: (8, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - X - 
+3  X - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 704
+Location: (8, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  X X - - - - - 
+Final Cell Count: 708
+Location: (8, 31)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - X 
+6  - - - - - - X 
+7  - - - - - - - 
+Final Cell Count: 712
+Location: (8, 32)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - - - - - X 
+6  X - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 717
+Location: (8, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  X - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 720
+Location: (8, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 722
+Location: (8, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  X - - X X - - 
+Final Cell Count: 726
+Location: (8, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 728
+Location: (8, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 730
+Location: (9, 11)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 731
+Location: (9, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X X - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 733
+Location: (9, 17)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - X - - - - 
+4  - X - - - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 736
+Location: (9, 19)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - X - - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 739
+Location: (9, 20)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 741
+Location: (9, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 743
+Location: (9, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - X - - - - X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 746
+Location: (9, 24)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 747
+Location: (9, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  - - - - - X - 
+Final Cell Count: 749
+Location: (9, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - X - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 751
+Location: (9, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 753
+Location: (9, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - X - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 756
+Location: (9, 30)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 759
+Location: (9, 31)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  X - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 764
+Location: (9, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 766
+Location: (9, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 768
+Location: (9, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 771
+Location: (9, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 772
+Location: (9, 36)
+   A B C D E F G H I J K L M N 
+1  - - - X - X - 
+2  X - - - X - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - - X - - - 
+6  - X - - - X - 
+7  X X - - - - - 
+Final Cell Count: 782
+Location: (9, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  X - - X - - - 
+3  - X - X - - - 
+4  - - - - - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 787
+Location: (9, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - - - X 
+4  - - - X - - - 
+5  - - - - - - - 
+6  X - - - X - - 
+7  - - - - X - - 
+Final Cell Count: 793
+Location: (10, 11)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 794
+Location: (10, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 795
+Location: (10, 18)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 796
+Location: (10, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 797
+Location: (10, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 798
+Location: (10, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 800
+Location: (10, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  X - - - - - - 
+Final Cell Count: 802
+Location: (10, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 804
+Location: (10, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  X - - - - - - 
+Final Cell Count: 806
+Location: (10, 28)
+   A B C D E F G H I J K L M N 
+1  X - - - - X - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - X - - - - X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 811
+Location: (10, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 812
+Location: (10, 30)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 816
+Location: (10, 31)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - X 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 819
+Location: (10, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  X - X - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 824
+Location: (10, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - X - - 
+6  - - - X - - - 
+7  - - - X - - - 
+Final Cell Count: 827
+Location: (10, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  X - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - X - 
+Final Cell Count: 831
+Location: (10, 36)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - X - - - - 
+3  X - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 836
+Location: (10, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - X - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 839
+Location: (10, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 841
+Location: (11, 16)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 842
+Location: (11, 17)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - X - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 843
+Location: (11, 20)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 844
+Location: (11, 22)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 845
+Location: (11, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 846
+Location: (11, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - X - 
+Final Cell Count: 849
+Location: (11, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  - - - X - - - 
+Final Cell Count: 851
+Location: (11, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  X X - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 853
+Location: (11, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - X X - 
+6  - - - - - - X 
+7  - - - - - - - 
+Final Cell Count: 857
+Location: (11, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 859
+Location: (11, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - - X - - 
+7  - - - X - - - 
+Final Cell Count: 863
+Location: (11, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  - - - X - - - 
+7  - - - X - - - 
+Final Cell Count: 867
+Location: (11, 31)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  X - - X - - - 
+6  - - - - - - - 
+7  - X - - - X - 
+Final Cell Count: 872
+Location: (11, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X - - X - - - 
+4  - - - - - - - 
+5  - - - - - - X 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 876
+Location: (11, 33)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - X X - 
+3  - - - - - - - 
+4  - - X - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 882
+Location: (11, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - X - X 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 885
+Location: (11, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - X - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - X - - - - 
+Final Cell Count: 888
+Location: (11, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 891
+Location: (11, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 893
+Location: (11, 38)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  X - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 895
+Location: (12, 16)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 896
+Location: (12, 18)
+   A B C D E F G H I J K L M N 
+1  - X - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 897
+Location: (12, 20)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 899
+Location: (12, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - - - - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 901
+Location: (12, 22)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 902
+Location: (12, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - X - X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 904
+Location: (12, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - X - - - X - 
+7  - - - - - - - 
+Final Cell Count: 907
+Location: (12, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 908
+Location: (12, 28)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 911
+Location: (12, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  X X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 913
+Location: (12, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - X - - - - X 
+Final Cell Count: 916
+Location: (12, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - X X 
+Final Cell Count: 919
+Location: (12, 34)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - - - - - X - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 924
+Location: (12, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - X 
+3  - - - - - - - 
+4  - X - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 928
+Location: (12, 36)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - - X - - 
+4  - - - - - X - 
+5  - - - - - - X 
+6  - - - - - - - 
+7  X - - - X - - 
+Final Cell Count: 934
+Location: (12, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - - - - - - - 
+Final Cell Count: 935
+Location: (13, 13)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 936
+Location: (13, 21)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - X X - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 938
+Location: (13, 25)
+   A B C D E F G H I J K L M N 
+1  - X - - - - X 
+2  X - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 942
+Location: (13, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - X - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 943
+Location: (13, 28)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 944
+Location: (13, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 945
+Location: (13, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  X - - - - - - 
+Final Cell Count: 947
+Location: (13, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - - - - - 
+7  - - - - - - X 
+Final Cell Count: 950
+Location: (13, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - X - - - 
+3  X - - - X - - 
+4  - - - - - - X 
+5  - - - - - - - 
+6  - - - X - - - 
+7  - - - - X - - 
+Final Cell Count: 956
+Location: (13, 33)
+   A B C D E F G H I J K L M N 
+1  - - X - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 958
+Location: (13, 34)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - X - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 961
+Location: (13, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - X - - - - 
+7  - - - - - - - 
+Final Cell Count: 964
+Location: (13, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - X - - 
+3  - - - - - - - 
+4  - - - - - - X 
+5  - - - - - - - 
+6  - - - X - X - 
+7  - - X - - - X 
+Final Cell Count: 970
+Location: (13, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - X - - - - - 
+6  - - - - - - - 
+7  - X - - - - - 
+Final Cell Count: 972
+Location: (13, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - X 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - X - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 974
+Location: (14, 22)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 975
+Location: (14, 23)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 976
+Location: (14, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 977
+Location: (14, 29)
+   A B C D E F G H I J K L M N 
+1  X - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  X - - - - - - 
+Final Cell Count: 979
+Location: (14, 30)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - X - - - - - 
+3  - - - - - - - 
+4  X - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - X - - 
+Final Cell Count: 982
+Location: (14, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - X X 
+3  - - - - - X - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 985
+Location: (14, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  - - - - - - X 
+Final Cell Count: 987
+Location: (14, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - X - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 988
+Location: (14, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - X - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 989
+Location: (14, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - X - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 990
+Location: (14, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 991
+Location: (15, 2)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - X - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 992
+Location: (15, 9)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - X - - - 
+Final Cell Count: 993
+Location: (15, 24)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - X 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 994
+Location: (15, 25)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - X - 
+5  - - - - - - - 
+6  - X - - - - - 
+7  - - - - - - - 
+Final Cell Count: 996
+Location: (15, 26)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 997
+Location: (15, 27)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 998
+Location: (15, 29)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 999
+Location: (15, 30)
+   A B C D E F G H I J K L M N 
+1  - - - X - - - 
+2  - - - - - - - 
+3  - - - X - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  X - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 1002
+Location: (15, 31)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - - X - 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  - - - - X - - 
+Final Cell Count: 1006
+Location: (15, 32)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - X - - - - 
+4  - - - - - X - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 1008
+Location: (15, 33)
+   A B C D E F G H I J K L M N 
+1  - - - - - X - 
+2  - - - - - - X 
+3  - - - - - - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - X - - 
+7  - - - - - - - 
+Final Cell Count: 1011
+Location: (15, 34)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - X - - - - 
+3  - X - - - - - 
+4  X - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 1014
+Location: (15, 35)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - - - - X X 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 1016
+Location: (15, 36)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - X - - 
+4  X - - - - - - 
+5  - - - - - - - 
+6  - - - - - - X 
+7  - - - X - - - 
+Final Cell Count: 1020
+Location: (15, 37)
+   A B C D E F G H I J K L M N 
+1  - - - - - - - 
+2  - - - - - - - 
+3  - - - - - - - 
+4  - - X - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 1021
+Location: (15, 38)
+   A B C D E F G H I J K L M N 
+1  - - - - X - - 
+2  - - - - X - X 
+3  - - - - X - - 
+4  - - - - - - - 
+5  - - - - - - - 
+6  - - - - - - - 
+7  - - - - - - - 
+Final Cell Count: 1025

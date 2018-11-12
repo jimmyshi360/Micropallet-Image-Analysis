@@ -1,11 +1,11 @@
 
 # Micropallet Array Image Processing Software
-Created in association with University of California Irvine Cancer Research Institute - Nelson Lab with Devs Yihong Sun and Jimmy Shi.
+Created in association with University of California Irvine Cancer Research Institute - Nelson Lab as well as Jimmy Shi.
 
 This repository contains the Java source code for a user interface and backend algorithms for tallying radioactive markers across multiple high and low contrast imaging channels produced after a micropallet experiment.
 
-![alt text](https://i.imgur.com/NngeFEf.png)
 ![alt text](https://i.imgur.com/M2zUbtw.png)
+![alt text](https://i.imgur.com/NngeFEf.png)
 ![alt text](https://i.imgur.com/LpEK7Cd.png)
 
 The end goal is to provide researchers with a smooth and rapid way to analyze Micropallet experiments.

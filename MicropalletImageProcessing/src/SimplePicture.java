@@ -28,7 +28,7 @@ public class SimplePicture implements DigitalPicture
   /**
    * buffered image to hold pixels for the simple picture
    */
-  private BufferedImage bufferedImage;
+  private static BufferedImage bufferedImage;
   
   /**
    * frame used to display the simple picture
@@ -39,7 +39,8 @@ public class SimplePicture implements DigitalPicture
    * extension for this file (jpg or bmp)
    */
   private String extension;
-  
+
+	private double threshold = 50000000;
  
 	/////////////////////// Constructors /////////////////////////
 	
@@ -59,10 +60,35 @@ public class SimplePicture implements DigitalPicture
 	* A Constructor that takes a file name and uses the file to create
 	* a picture
 	* @param fileName the file name to use in creating the picture
+	 * @throws IOException 
 	*/
 	public SimplePicture(String fileName)
 	{
 		load(fileName);
+		
+		
+		if (getWidth() * getHeight() > threshold) {
+			double scale = (double) getWidth() * getHeight() / threshold;
+			scale = Math.pow(scale, 0.5);
+			scale = 1 / scale;		
+			resize(scale);
+		}
+		
+	}
+	
+	public SimplePicture(String fileName, int limit)
+	{
+		load(fileName);
+		
+		
+		if (getWidth() * getHeight() > threshold) {
+			double scale = (double) getWidth() * getHeight() / threshold;
+			scale = Math.pow(scale, 0.5);
+			scale = 1 / scale;		
+			resize(scale);
+		}
+		
+		crop(limit);
 	}
 	
 	/**
@@ -541,6 +567,46 @@ public class SimplePicture implements DigitalPicture
 		
 		return result;
 	}
+	
+	public static void resize( int scaledWidth, int scaledHeight)
+             {
+        // reads input image
+      
+        BufferedImage outputImage = new BufferedImage(scaledWidth,
+                scaledHeight, bufferedImage.getType());
+ 
+        // scales the input image to the output image
+        Graphics2D g2d = outputImage.createGraphics();
+        g2d.drawImage(bufferedImage, 0, 0, scaledWidth, scaledHeight, null);
+        g2d.dispose();
+ 
+	 bufferedImage=outputImage;
+	 outputImage=null;
+    }
+
+	public static void crop(int rowLimit)
+	{
+		BufferedImage outputImage = bufferedImage.getSubimage(0, 0, bufferedImage.getWidth(), rowLimit);
+		bufferedImage = outputImage;
+		outputImage = null;
+
+	}
+ 
+    /**
+     * Resizes an image by a percentage of original size (proportional).
+     * @param inputImagePath Path of the original image
+     * @param outputImagePath Path to save the resized image
+     * @param percent a double number specifies percentage of the output image
+     * over the input image.
+     * @throws IOException
+     */
+    public static void resize(double percent) {
+      
+        int scaledWidth = (int) (bufferedImage.getWidth() * percent);
+        int scaledHeight = (int) (bufferedImage.getHeight() * percent);
+        resize(scaledWidth, scaledHeight);
+    }
+
 	
 	/**
 	* Method to create a new picture of the passed width. 
