@@ -38,7 +38,7 @@ Project version 1.0
 
 ## License
 
-This project is licensed under the GNU General Public License License - see the [LICENSE.md](LICENSE.md) file for details
+Pending
 
 ## Acknowledgments
 
