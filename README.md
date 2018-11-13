@@ -28,7 +28,7 @@ Experimental JAR file is included. To run it, move it outside of this directory 
 
 ```
 Java SE8
-Project version 1.0
+Project version 2.0
 ```
 
 ## Authors
